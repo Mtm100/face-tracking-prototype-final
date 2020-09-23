@@ -3,10 +3,10 @@ video.style.transform = 'scale(-1, 1)';
 
 
 Promise.all([
-  faceapi.nets.tinyFaceDetector.loadFromUri('/models'),
-  faceapi.nets.faceLandmark68Net.loadFromUri('/models'),
-  faceapi.nets.faceRecognitionNet.loadFromUri('/models'),
-  faceapi.nets.faceExpressionNet.loadFromUri('/models')
+  faceapi.nets.tinyFaceDetector.loadFromUri('https://Mtm100.github.io/face-tracking-prototype-final/models'),
+  faceapi.nets.faceLandmark68Net.loadFromUri('https://Mtm100.github.io/face-tracking-prototype-final/models'),
+  faceapi.nets.faceRecognitionNet.loadFromUri('https://Mtm100.github.io/face-tracking-prototype-final/models'),
+  faceapi.nets.faceExpressionNet.loadFromUri('https://Mtm100.github.io/face-tracking-prototype-final/models')
 ]).then(startVideo)
 
 function startVideo() {
