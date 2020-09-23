@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lookout Prototype</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    canvas {
+      margin-top: 100px;
+      position: fixed;
+    }
+    
+    video{
+      margin-top: 100px;
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    setTimeout(function(){
+       window.location='slide2.html';
+    }, 21000);
+</script>
+  <div class="background-image"></div>
+  <video id="video" width="720" height="560" autoplay muted></video>
+  <div class="next-button">
+    <button onClick="location.href='slide2.html'" type="button">NEXT</button>
+  </div>
+</body>
+</html>

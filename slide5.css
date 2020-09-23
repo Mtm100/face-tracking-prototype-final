@@ -1,0 +1,25 @@
+.background-image {
+    height: 1200px;
+    width: 100%;
+    text-align: center;
+    background-image: url(./final-background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; 
+   }
+
+   .next-button {
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #68E8A0;
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+  }
